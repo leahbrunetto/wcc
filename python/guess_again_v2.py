@@ -42,7 +42,7 @@ def play(min, max):
     # When building your program, the following line will tell you what
     # the secret_number is; this will make it easier to test the game.
     # When done, remove or comment-out this line.
-    print('TEMPORARY DEBUGGING HELPER -> The secret number is: ' + str(secret_number))
+    #print('TEMPORARY DEBUGGING HELPER -> The secret number is: ' + str(secret_number))
 
     # Print message at the start the game
     print("\nI'm thinking of a number between " + str(min) + " and " + str(max) + " what do you think it is?")
