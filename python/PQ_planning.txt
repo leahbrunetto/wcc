@@ -1,0 +1,33 @@
+"Science can help us understand many issues, but cannot solve all of them. In this Hall of Human Life activity, you will investigate and make decisions about important scientific policy questions that affect not just ourselves, but our entire communities. You will be provided with scientific evidence about all aspects of the issue. Then, use your personal experiences underlying social values to come to a decision." http://exhibits.mos.org/explore-the-exhibit/provocative-questions
+
+Program plan:
+
+# Pre-stored Data
+
+Initialize variables for personal experience statement, scientific evidence statement, social values statement, and final statement.
+Load scientific evidence statements into an array 
+Load social values statements into an array
+Load four arrays with data on how many other people chose responses (PE, SE, SV, FS)
+
+# Game Play
+
+Welcome player to the game.
+
+Print out background info on the topic: "More than just an itchy nuisance, mosquitoes are carriers of human diseases like malaria and the Zika virus. Most methods of mosquito control are only partially successful, and using pesticides can have negative impacts on other animals. Thanks to global efforts, some mosquito-carried diseases have become much less common in recent years. The rates of malaria and yellow fever have decreased drastically since the turn of the century. Unfortunately, other mosquito-carried diseases are spreading rapidly with increased global commerce. Scientists are turning to new and innovative technologies to manage the mosquitoes and the diseases they carry - including genetic modification."
+
+Present player with personal experience statement #1 ("Genetically modifying mosquitoes would affect me personally."), give option to add it to their case or option to skip
+Present player with personal experience statement #2 ("Genetically modifying mosquitoes would not affect me personally."), a) give option to add it to their case (popping out SE#1). 
+
+Start a for loop, looping through the SE array
+Present player with SE statement #1, give option to add it to their case or option to skip
+Repeat for eight total SE statements
+
+Start a for loop, looping through the SV array
+Present player with SV statement #1, give option to add it to their case or option to skip
+Repeat for six total scientiic evidence statements
+
+Present player with the provocative question (e.g. "Should scientists use genetically modified mosquitos to control disease?"). Enter "Y" or "N" (validate responses). Store the player's response in the appropriate variable.
+
+Present the user with their case ("Here is the case you built:"), printing out their stored responses for PE, SE, SV, and FS. 
+
+Tell them what percentage of other players chose those selections ("x% of players chose the same scientific evidence statement"). Not sure exactly how to compare the two arrays, I'm sure it's possible, though!
